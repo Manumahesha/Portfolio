@@ -7,27 +7,21 @@ const Experience = () => {
   
   const experiences = [
     {
-      company: 'Examic EdTech Private Limited',
-      role: 'Associate Software Engineer',
-      period: 'July 2024 - Present',
+      company: 'Enhanzed Education Pvt. Ltd.',
+      role: 'Full Stack Developer Intern',
+      period: ' Feb 2025 - May 2025',
       location: 'Mysore',
       responsibilities: [
-        'Developed NLP applications using FastAPI and Hugging Face Transformers for similarity checking and automated question generation',
-        'Created content generation systems with Google Generative AI and React',
-        'Built proctoring solutions using LiveKit, Node.js, and MongoDB',
-        'Engineered chatbots with RAG implementation and PostgreSQL vector databases',
-        'Developed real-time voice chat applications with AI capabilities'
+        'Built a full-stack web application, handling both client-side and server-side development using modern frameworks and tools'
       ]
     },
     {
-      company: 'Codevice Solution Private Limited',
+      company: 'Technical Carrier Education',
       role: 'MERN Stack Developer Intern',
-      period: 'March 2024 - July 2024',
-      location: 'Bangalore',
+      period: 'Oct 2023 - Nov 2023',
+      location: 'Mangalore',
       responsibilities: [
-        'Developed backend systems using Node.js in a monolithic architecture',
-        'Designed and deployed microservices architecture with RESTful APIs',
-        'Created scalable microservices for inventory management using Node.js and MongoDB'
+        'Solved a problem statement of Building web based application using MERN Stack'
       ]
     }
   ];

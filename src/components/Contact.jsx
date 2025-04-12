@@ -119,7 +119,7 @@ const Contact = () => {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-white font-medium mb-1">Location</h4>
-                      <p className="text-gray-400">Mysore, Karnataka, India</p>
+                      <p className="text-gray-400">Chamarajanagar, Karnataka, India</p>
                     </div>
                   </div>
                 </div>

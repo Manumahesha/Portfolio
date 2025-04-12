@@ -3,7 +3,7 @@
 
     const Hero = () => {
     const [glitchText, setGlitchText] = useState('DEVELOPER');
-    const titles = ['DEVELOPER', 'AI ENGINEER', 'FULL STACK', 'ML ENTHUSIAST'];
+    const titles = ['DEVELOPER', 'FULL STACK'];
     const [titleIndex, setTitleIndex] = useState(0);
     const [letterIndex, setLetterIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -78,7 +78,7 @@
             </div>
             
             <p className="text-xl md:text-2xl mb-8 max-w-2xl text-gray-300">
-                Building innovative solutions with cutting-edge technologies in AI, ML, and full-stack development.
+                Building innovative solutions with cutting-edge technologies full-stack development.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4">

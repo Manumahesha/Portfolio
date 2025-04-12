@@ -9,13 +9,12 @@ const Skills = () => {
         {
             title: "Languages Frameworks",
             skills: [
-                { name: "JavaScript", level: 90 },
-                { name: "Python", level: 85 },
-                { name: "SQL", level: 80 },
                 { name: "HTML/CSS", level: 90 },
-                { name: "Node.js", level: 85 },
-                { name: "Node.js", level: 85 },
+                { name: "JavaScript", level: 90 },
                 { name: "React js", level: 90 },
+                { name: "C Programming", level: 80 },
+                { name: "Python", level: 85 },
+                { name: "Node.js", level: 85 },
             ]
         },
         // {
@@ -125,7 +124,7 @@ const Skills = () => {
 
                 <div className="mt-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
                     {[
-                        'javascript', 'python', 'react', 'node', 'mongodb', 'postgresql'
+                        'HTML', 'CSS' , 'javascript', 'react', 'NodeJS', 'C Programming' , 'Python' , 'mongoDB', ''
                     ].map((tech, index) => (
                         <div
                             key={index}

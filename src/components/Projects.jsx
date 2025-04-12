@@ -7,33 +7,26 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "DeepWeed",
-      description: "A dynamically adaptive lightweight deep learning model for efficient weed classification using VGG16 pre-trained weights with custom layers.",
-      technologies: ["TensorFlow", "Convolutional Neural Networks", "VGG16", "L2 Regularization"],
+      title: "Tropical Cyclone Intensity Estimation and Path Prediction",
+      description: "Accurate prediction of TC intensity and path is challenging due to the complex nature of cyclones. Traditional prediction methods often lacks in prediction and disaster management. Thus, we aims to develop a model using satellite images and Deep Learning techniques that will estimate and predict tropical cyclone intensity. This model will also forecast the direction of the tropical cyclones(TC).",
+      technologies: ["Using Deep Learning with Satellite Images"],
       image: "/project-deepweed.jpg",
       link: "https://ieeexplore.ieee.org/"
     },
     {
-      title: "Energy Intensity Analysis",
-      description: "Machine learning project analyzing the connection between energy consumption and GDP using decision tree and naive Bayes algorithms.",
-      technologies: ["Python", "Decision Trees", "Naive Bayes", "Data Visualization"],
+      title: "Real Estate Management System",
+      description: "The Real Estate Management System (REMS) revolutionizes property management by centralizing communication and collaboration among stakeholders, including owners, tenants, and administrators..",
+      technologies: ["Google Chrome", "VS Code", "SQL", "PHP"],
       image: "/project-energy.jpg",
       link: "#"
     },
     {
-      title: "AI-Powered Proctoring System",
-      description: "Real-time proctoring solution using video streaming and screen-sharing with cloud storage integration.",
-      technologies: ["LiveKit", "Node.js", "MongoDB", "React", "MinIO", "Azure Blob Storage"],
+      title: "Smart Irrigation System",
+      description: "A smart irrigation system that automatically waters plants based on soil humidity and temperature, making irrigation easy and saving water.",
+      technologies: ["Arduino IDE", "HTML", "CSS", "JAVA"],
       image: "/project-proctoring.jpg",
       link: "#"
     },
-    {
-      title: "RAG-Enhanced Chatbot",
-      description: "Intelligent chatbot leveraging Google Gemini and Retrieval-Augmented Generation with vector database for enhanced responses.",
-      technologies: ["Google Gemini", "RAG", "PostgreSQL Vector DB", "FastAPI", "React"],
-      image: "/project-chatbot.jpg",
-      link: "#"
-    }
   ];
   
   useEffect(() => {

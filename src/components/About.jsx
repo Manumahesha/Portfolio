@@ -52,16 +52,14 @@ const About = () => {
           </div>
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold mb-4">Full Stack Developer & AI Enthusiast</h3>
+            <h3 className="text-2xl font-bold mb-4">Full Stack Developer</h3>
             <p className="text-gray-300 mb-6">
-              I'm Mahadevaprasad, a passionate software engineer with expertise in full-stack development and artificial intelligence. 
-              With a strong foundation in both frontend and backend technologies, I specialize in creating innovative solutions 
-              that leverage cutting-edge AI/ML techniques.
+            I'm Mahadevaprasad, a passionate full-stack developer with strong skills in both frontend and backend technologies, 
+            focused on building efficient and scalable web applications.
             </p>
             <p className="text-gray-300 mb-6">
               My journey in software development has equipped me with a versatile skill set, allowing me to build everything 
-              from responsive web applications to sophisticated AI-powered systems. I'm particularly interested in natural 
-              language processing, computer vision, and developing applications that make AI accessible and practical.
+              from responsive web applications.
             </p>
             <p className="text-gray-300 mb-6">
               When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and staying 
@@ -69,12 +67,11 @@ const About = () => {
             </p>
             
             <div className="flex flex-wrap gap-4">
+              <div className="px-4 py-2 bg-white/10 rounded-full text-sm">HTML</div>
+              <div className="px-4 py-2 bg-white/10 rounded-full text-sm">CSS</div>
               <div className="px-4 py-2 bg-white/10 rounded-full text-sm">JavaScript</div>
-              <div className="px-4 py-2 bg-white/10 rounded-full text-sm">Python</div>
               <div className="px-4 py-2 bg-white/10 rounded-full text-sm">React</div>
               <div className="px-4 py-2 bg-white/10 rounded-full text-sm">Node.js</div>
-              <div className="px-4 py-2 bg-white/10 rounded-full text-sm">TensorFlow</div>
-              <div className="px-4 py-2 bg-white/10 rounded-full text-sm">FastAPI</div>
             </div>
           </div>
         </div>
