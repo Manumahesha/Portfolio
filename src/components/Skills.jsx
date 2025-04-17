@@ -1,4 +1,3 @@
-
 // src/components/Skills.jsx
 import { useRef, useEffect } from 'react';
 
@@ -10,11 +9,11 @@ const Skills = () => {
             title: "Languages Frameworks",
             skills: [
                 { name: "HTML/CSS", level: 90 },
-                { name: "JavaScript", level: 90 },
-                { name: "React js", level: 90 },
+                { name: "JavaScript", level: 80 },
+                { name: "React js", level: 80 },
                 { name: "C Programming", level: 80 },
-                { name: "Python", level: 85 },
-                { name: "Node.js", level: 85 },
+                { name: "Python", level: 70 },
+                { name: "Node.js", level: 80 },
             ]
         },
         // {
@@ -91,52 +90,51 @@ const Skills = () => {
                     </span>
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    {skillCategories.map((category, catIndex) => (
-                        <div key={catIndex} className="relative p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-                            <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl opacity-20"></div>
-                            <div className="relative">
-                                <h3 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                                    {category.title}
-                                </h3>
+                {/* Center-aligned Languages Frameworks section */}
+                <div className="flex justify-center mb-12">
+                    <div className="w-full max-w-2xl relative p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl opacity-20"></div>
+                        <div className="relative">
+                            <h3 className="text-xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                                {skillCategories[0].title}
+                            </h3>
 
-                                <div className="space-y-6">
-                                    {category.skills.map((skill, skillIndex) => (
-                                        <div key={skillIndex}>
-                                            <div className="flex justify-between mb-2">
-                                                <span className="text-gray-300">{skill.name}</span>
-                                                <span className="text-gray-400">{skill.level}%</span>
-                                            </div>
-                                            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                                                <div
-                                                    className="skill-bar-fill h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-0"
-                                                    style={{ width: '0%', transition: 'width 1s ease-in-out, opacity 0.5s ease-in-out' }}
-                                                    data-level={skill.level}
-                                                ></div>
-                                            </div>
+                            <div className="space-y-6">
+                                {skillCategories[0].skills.map((skill, skillIndex) => (
+                                    <div key={skillIndex}>
+                                        <div className="flex justify-between mb-2">
+                                            <span className="text-gray-300">{skill.name}</span>
+                                            <span className="text-gray-400">{skill.level}%</span>
                                         </div>
-                                    ))}
-                                </div>
+                                        <div className="h-2 bg-white/10 rounded-full overflow-hidden">
+                                            <div
+                                                className="skill-bar-fill h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-0"
+                                                style={{ width: '0%', transition: 'width 1s ease-in-out, opacity 0.5s ease-in-out' }}
+                                                data-level={skill.level}
+                                            ></div>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
                         </div>
-                    ))}
+                    </div>
                 </div>
 
                 <div className="mt-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
                     {[
-                        'HTML', 'CSS' , 'javascript', 'react', 'NodeJS', 'C Programming' , 'Python' , 'mongoDB', ''
+                        'HTML', 'CSS', 'javascript', 'react', 'NodeJS', 'C_program', 'Python', 'mongoDB',
                     ].map((tech, index) => (
                         <div
                             key={index}
                             className="flex flex-col items-center justify-center p-4 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 group"
                         >
-<div className="w-12 h-12 mb-2 text-gray-400 group-hover:text-white transition-colors duration-300">
-  <img 
-    src={`/assets/${tech}.svg`} 
-    alt={tech} 
-    className="w-full h-full object-contain transition-all duration-300 group-hover:scale-110"
-  />
-</div>
+                            <div className="w-12 h-12 mb-2 text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <img 
+                                    src={`/assets/${tech}.svg`} 
+                                    alt={tech} 
+                                    className="w-full h-full object-contain transition-all duration-300 group-hover:scale-110"
+                                />
+                            </div>
                             <span className="text-xs text-gray-400 group-hover:text-white capitalize transition-colors duration-300">
                                 {tech}
                             </span>
